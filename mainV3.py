@@ -24,7 +24,6 @@ while True:
         #length, info, img = detector.findDistance(lmList1[8], lmList1[12], img) # with draw
         #length, info = detector.findDistance(lmList1[8], lmList1[12])  # no draw
 
-
         if len(hands) == 2:
             hand2 = hands[1]
             lmList2 = hand2["lmList"]  # List of 21 Landmarks points
